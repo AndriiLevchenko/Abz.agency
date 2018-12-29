@@ -22,40 +22,52 @@
     <![endif]-->
   </head>
   <body>
-  <!--   Navbar  -->
-    <div class='navbar navbar-fixed-top'>
-      <div class='container'>
-        <div class='navbar-header'>
-                <a class='navbar-brand' href='#'>
-                    <img src="logo/logo.svg" alt="abz.agency logo" style="width: 200px; height: 25px;">
+  <!--   Navigation  -->
+    <div class='navigation'>   
+        <div class='navbar__brand'>
+                <a  href='#'>
+                    <img src='logo/logo.svg' alt='logo'>
                 </a> 
-          <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='.navbar-collapse'>
-            <span class='icon-bar'></span>
-            <span class='icon-bar'></span>
-            <span class='icon-bar'></span>
-          </button>  
-          
+	          
         </div>
-        <div class='navbar-collapse collapse'>
-          <ul class='nav navbar-nav navbar-right'>
-            <li class='active'><a href='#'>About me</a></li>
-            <li><a href='#'>Relationships</a></li>
-            <li><a href='#'>Requirements</a></li>
-            <li><a href='#'>Users</a></li>
-            <li><a href='#'>Sign up</a></li>
-            <li><a href='#'><i class='fa fa-envelope-o' aria-hidden='true'></i></a></li>
-          </ul> 
+        <div class='navbar__header'>
+          	<ul>
+	            <li><a href='#'>About me</a></li>
+	            <li><a href='#'>Relationships</a></li>
+	            <li><a href='#'>Requirements</a></li>
+	            <li><a href='#'>Users</a></li>
+	            <li><a href='#'>Sign Up</a></li>
+          	</ul> 
+           	<button type='button' class='navbar-toggle' data-toggle='collapse' data-target='.navbar-collapse'>
+	            <span class='icon-bar'></span>
+	            <span class='icon-bar'></span>
+	            <span class='icon-bar'></span>
+	        </button>  
         </div>
-      </div>
+        <div class='navbar__superstar'>
+        	<div class='navbar__superstar-button'>
+        		 <img src="Icons/upload.png" alt='upload'/>
+        	</div>
+        	<div class='navbar__superstar-img'>
+        		 <img src='imgs/superstar.jpg' alt='superstar'>
+        	</div>
+        	<div class='navbar__superstar-text'>
+        		<p style='font-size: 12px'>Superstar</p>
+        		<p>Superstar@gmail.com</p>
+        	</div>
+        </div>
     </div>
 
+
+
     <!-- Test assignment  -->
-    <div id='headerwrap'>
-          	<div class='container__h1h5a'>
+    <div align= 'center'>
+    <div class='assignment'>
+          	<div class='assignment__h1h5a'>
             	<h1> Test assignment for</h1>
             	<h1> Frontend Developer</h1>
             	<h1> position</h1>
-            	<div class='container__h5'>
+            	<div class='assignment__h5'>
            			<h5>We kindly remind you that your test assignment</h5>
            			<h5> should be submitted as a link to github/bitbucket </h5>
            			<h5>repository. Please be patient, we consider and </h5>
@@ -66,11 +78,13 @@
             	<button href="#" class="btn  button">Sign up</button>
             </div>	       
     </div>
+    </div>
     <!-- Let's get aquainted--> 
+    <div align= 'center'>
     <div class="man-mobile">
     	
         	<div class="man-mobile__picture">
-            	<img src="imgs/man-mobile.svg" alt="man" style="width: 300px;" class="img-responsive" />
+            	<img src="imgs/man-mobile.svg" alt="man" style="width: 300px;" />
         	</div>
         	<div class="man-mobile__text">
         		<h1>Let's get acquainted</h1>
@@ -81,14 +95,18 @@
             		<p>Last week, Google Search and Ads teams announced two new speed initiatives ti help</p>
             		<p>improove user-experience on the web. </p>
             	</div>
-            	<a href="#" class="btn btn-warning button">Sign Up</a>
+            	<div class="man-mobile__button">
+            		<a href="#" >Sign Up</a>
+            	</div>
         	</div>
         	
         	<div class="clearfix"></div>
   
     </div>
+    </div>
        
     <!-- About my relationships with web-developers  -->
+    <div align= 'center'>
     <div class='relationships'>
       	<div class='relationships__text'>
       		<h1>About my relationships with</h1>
@@ -96,23 +114,23 @@
       	</div>
       	<div class='relationships__technologies'>
 	        <div class='web-technology'>
-	          <img src="imgs/html.svg" alt="html" style="width: 100px;"  />
+	          	<img src="imgs/html.svg" alt="html" />
 	            <h3>I'm in love with HTML</h3>
 	            <p>Hypertext Markup Language (HTML) is the</p>
 	            <p> standard markup language for creating</p>
 	            <p> web pages and web applications.</p>
 	        </div>
 	        <div class='web-technology'>
-	          <img src="imgs/css.svg" alt="css" style="width: 100px;"  />
+	          	<img src="imgs/css.svg" alt="css" />
 	            <h3>CSS is my best friend</h3>
 	            <p>Cascading Style Sheets (CSS)</p>
-	            <p> is a ctyle sheet language used for</p>
+	            <p> is a style sheet language used for</p>
 	            <p> describing the presentation of a</p>
 	            <p> document written in a markup</p>
 	            <p> language like HTML.</p>
 	        </div>
 	        <div class='web-technology'>
-	          <img src="imgs/javascript.svg" alt="javascript" style="width: 100px;"  />
+	          	<img src="imgs/javascript.svg" alt="javascript"  />
 	            <h3>JavaScript is my passion</h3>
 	            <p>JavaScript is a high-level, interpreted</p>
 	            <p> programming language. It is a language </p>
@@ -122,9 +140,10 @@
 	        </div>
 	    </div>    
     </div>
-    
+    </div>
 
      <!-- General requirement for the test task-->
+    <div align= 'center'>
     <div class="requirement">
     	<h1>General requirements for the test task</h1>
         <div class="requirement__text">
@@ -141,8 +160,10 @@
         </div>
         <div class="clearfix"></div>
     </div>  
+    </div>
 
     <!-- Our cheerfull users -->
+    <div align= 'center'>
     <div class="cheerful">
     	<h1>Our cheerful users</h1>
     	<h5>Attention! Sorting users by registration date</h5>
@@ -235,7 +256,7 @@
 						
 						</div>  
 			<button href="#" class="  button">Show more</button>			
-       
+    </div>
     </div>
 
     <!-- Register to get a work -->
@@ -284,13 +305,13 @@
     			<div style='height: 0px; width:0px; overflow:hidden;'><input id="upfile" type="file" value="upload"/></div>
     <!-- here you can have file submit button or you can write a simple script to upload the file automatically-->
 			   
-			    <button href="#" class="register__button">Show more</button>
+			    <button href="#" class="register__button">Sign Up</button>
 			</form>		
 		</div>
 
 	</div>
 	<!-- footer  -->
-	<footer>
+	<footer align= 'center'>
 				<div class='navbar'>
 				        <div class='navbar__brand'>
 				                <a href='#'>
@@ -311,9 +332,9 @@
 			    </div>
 			    <hr/>
 			    <div class='table1'>
-			    	<div class='table1__row'><img src="icons/mail.svg" alt="abz.agency icon" >work.of.future@gmail.com</div>
-			    	<div class='table1__row'><img src="icons/phone.svg" alt="abz.agency icon" >+38 (050) 7892498</div>
-			    	<div class='table1__row'><img src="icons/cellphone.svg" alt="abz.agency icon" >+38 (095) 5560845</div>
+			    	<div class='table1__row'><img src="icons/mail.svg" alt="icon" ><span>work.of.future@gmail.com</span></div>
+			    	<div class='table1__row'><img src="icons/phone.svg" alt="icon" ><span>+38 (050) 7892498</span></div>
+			    	<div class='table1__row'><img src="icons/cellphone.svg" alt="icon" ><span>+38 (095) 5560845</span></div>
 			    </div>
 			    <div class='table2'>
 				    <table>
