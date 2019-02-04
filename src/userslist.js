@@ -1,0 +1,16 @@
+export default [
+{"listid":1,"picture":"imgs/superstar.jpg",			"name":"Superstar","position":"Superstar","email":"Superstar@gmail.com","telephone":"+38 (044) ___ __ __"},
+{"listid":2,"picture":"imgs/user-mason-2x.jpg",		"name":"Mason","position":"QA","email":"mason.qa@gmail.com","telephone":"+38 (095) 2832700"},
+{"listid":3,"picture":"imgs/user-alexander-2x.jpg",	"name":"Alexander","position":"Backend developer","email":"alexander.backend@gmail.com","telephone":"+38 (050) 7892409"},
+{"listid":4,"picture":"imgs/user-elizabeth-2x.jpg",	"name":"Elizabeth","position":"Frontend developer","email":"elizabet.frontend@gmail.com","telephone":"+38 (095) 9246637"},
+{"listid":5,"picture":"imgs/user-liam-2x.jpg",		"name":"Liamgrievescasey Smith Wiam","position":"Lead designer","email":"liamgrievescasey@example.com","telephone":"+38 (050) 2739332"},
+{"listid":6,"picture":"imgs/user-adolph-2x.png",		"name":"Adolph Blaine Charles David Earl","position":"The contextual advertising specialist","email":"adolph.blainecharles-davidearl@gmail.com","telephone":"+38 (095) 5560845"},
+{"listid":7,"picture":"imgs/user-noah-2x.jpg",		"name":"Noah","position":"Leading specialist of the Control Department","email":"noah.controldepartment@gmail.com","telephone":"+38 (050) 6780324"},
+{"listid":8,"picture":"imgs/user-noah-2x.jpg",		"name":"Noah","position":"Leading specialist of the Control Department","email":"noah.controldepartment@gmail.com","telephone":"+38 (050) 6780324"},
+{"listid":9,"picture":"imgs/user-mason-2x.jpg",		"name":"Mason","position":"QA","email":"mason.qa@gmail.com","telephone":"+38 (095) 2832700"},
+{"listid":10,"picture":"imgs/user-alexander-2x.jpg",	"name":"Alexander","position":"Backend developer","email":"alexander.backend@gmail.com","telephone":"+38 (050) 7892409"},
+{"listid":11,"picture":"imgs/user-elizabeth-2x.jpg", "name":"Elizabeth","position":"Frontend developer","email":"elizabet.frontend@gmail.com","telephone":"+38 (095) 9246637"},
+{"listid":12,"picture":"imgs/user-liam-2x.jpg",		"name":"Liamgrievescasey Smith Wiam","position":"Lead designer","email":"liamgrievescasey@example.com","telephone":"+38 (050) 2739332"},
+{"listid":13,"picture":"imgs/user-adolph-2x.png",	"name":"Adolph Blaine Charles David Earl","position":"The contextual advertising specialist","email":"adolph.blainecharles-davidearl@gmail.com","telephone":"+38 (095) 5560845"},
+{"listid":14,"picture":"imgs/user-noah-2x.jpg",		"name":"Noah","position":"Leading specialist of the Control Department","email":"noah.controldepartment@gmail.com","telephone":"+38 (050) 6780324"}
+]

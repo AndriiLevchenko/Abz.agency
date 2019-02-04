@@ -1,0 +1,168 @@
+
+@media (min-width: 320px) and (max-width: 614px) {
+.relationships{
+	width: 320px;
+	height: 901px;
+	margin: 0 auto;
+	padding-right: 15px;
+}
+.relationships__text{
+	width: 310px;
+	margin-top: 22px;
+}
+.relationships__technologies{
+	padding-top: 13px;
+	padding-left: 0px;
+}
+.relationships h2{
+	margin-left: 17px;
+	font-size: 26px;
+	text-align: center;
+	letter-spacing: 0.1px;
+	line-height: 28px;
+	color: black;
+}
+.web-technology{
+	width: 320px;
+	height: 243px;
+    margin: 0 4px;
+    padding-left: 2px;
+}
+.web-technology img{
+	width: 87px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.web-technology__text{
+	width: 280px;
+}
+.web-technology h5{
+	margin-left: 0px;
+    margin-top: 6px;
+    margin-bottom: 1px;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    text-align: center;
+}
+.web-technology p{
+	font-size: 14px;
+    margin: 7px 0px 0 0px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    line-height: 22px;
+}
+}
+
+@media (min-width: 615px) and (max-width: 1023px) {
+.relationships{
+	width: 615px;
+	margin: 0 auto;
+	padding-right: 15px;
+	padding-bottom: 77px;
+    overflow: hidden;
+}
+.relationships__text{
+	width: 452px;
+	margin-top: 56px;
+}
+.relationships__technologies{
+	margin-top: -3px;
+	padding-left: 47px;
+}
+.relationships h2{
+	margin-left: 17px;
+	font-size: 30px;
+	letter-spacing: 2px;
+	text-align: center;
+	line-height: 39px;
+	color: black;
+}
+
+.web-technology{
+	width: 600px;
+	height: 120px;
+    margin: 0 4px;
+    padding-left: 2px;
+    float: left;
+}
+.web-technology img{
+	width: 70px;
+    margin-top: 17px;
+    margin-left: 26px;
+    float: left;
+}
+.web-technology__text{
+	width: 400px;
+	float: left;
+}
+.web-technology h5{
+	margin-left: 30px;
+    margin-top: 14px;
+    margin-bottom: 1px;
+    letter-spacing: -0.4px;
+    text-align: left;
+}
+.web-technology p{
+	font-size: 12px;
+    margin: 7px 0px 0 30px;
+    text-align: left;
+    letter-spacing: -0.15px;
+    line-height: 18px;
+}
+}
+@media (min-width: 1024px) and (max-width: 2560px) {
+.relationships{
+	width: 1024px;
+	margin: 0 auto;
+	padding-right: 0px;
+	padding-bottom: 111px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.relationships__text{
+	width: 588px;
+	margin-top: -6px;
+}
+.relationships__technologies{
+	margin-top: 32px;
+	padding-left: 41px;
+}
+.relationships h2{
+	margin-left: 13px;
+	letter-spacing: 0.2px;
+	text-align: center;
+	line-height: 52px;
+	color: #111;
+}
+
+.web-technology{
+	width: 311px;
+	height: 320px;
+    margin: 0 4px;
+    padding-left: 2px;
+    float: left;
+}
+.web-technology img{
+	width: 99px;
+	margin-top: 9px;
+    margin-left: -210px;	
+}
+.web-technology__text{
+	width: 308px;
+}
+.web-technology h5{
+	margin-left: 0px;
+    margin-top: 18px;
+    margin-bottom: 1px;
+    font-size: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.web-technology p{
+	width: 278px;
+	margin: 11px 0px 0 -30px;
+    text-align: left;
+    letter-spacing: 0.3px;
+    line-height: 22px;
+}
+}

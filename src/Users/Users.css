@@ -1,0 +1,345 @@
+
+@media (min-width: 320px) and (max-width: 614px) {
+.users{
+	position: relative;
+	width: 320px;
+	padding-top: 23px;
+	overflow: hidden;
+}
+.users h2{
+	margin-left: 2px;
+    margin-top: 45px;
+    margin-bottom: 6px;
+    font-size: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: black;
+}
+.users h5{
+	width: 180px;
+    margin-top: 16px;
+    margin-bottom: 26px;
+    font-family: 'Overpass', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.4px;
+    text-align: center;
+    color: black;
+}
+.users__card{
+	width: 298px;
+    min-height: 182px;
+    padding: 1px auto;
+    border: 1px solid transparent;
+    overflow: visible;
+}
+.users__picture{
+	width: 211px;
+	margin-top: 1px;
+	margin-left: 0px;
+}
+.users img{
+	width: 71px;
+	margin-top: 0px;
+	margin-left: 0px;	
+	border: 1px solid none;
+	border-radius: 40px;	
+}
+.users__text{
+	width: 280px;
+	min-height: 84px;
+    margin-bottom: 28px;
+    letter-spacing: 1px;
+    line-height: 22px;
+       overflow: visible;
+}
+.users__text h4{
+	width: 229px;
+	margin-top: 7px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    text-align: center;
+    line-height: 24px;
+    color: #878787;
+}
+.p-position{
+	margin-top: 10px;
+	margin-bottom: 0px;
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    line-height: 14px;
+    text-align: center;
+    color: black;
+}
+.p-email{
+	margin-top: 5px;
+    font-size: 12px;
+    letter-spacing: 0.8px;
+    line-height: 14px;
+    text-align: center;
+    color: black;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.p-telephone{
+	margin-top: 0px;
+	margin-bottom: 0px;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+    line-height: 14px;
+    text-align: center;
+    color: black;
+}					
+.users .buttonShowmore{
+	width: 292px;
+    height: 38px;
+    margin-top: 0px;
+	margin-bottom: 28px;
+	border: 2px solid #ef6c00;
+	border-radius: 5px;
+	background-color: white;
+	color: #ef6c00;
+	font-size: 18px;
+	font-weight: 600;
+}
+.users .button:hover{
+	background-color: #FEE6D2;
+	
+}
+.floatleft{
+	float: left;
+}
+}
+@media (min-width: 615px) and (max-width: 1023px) {
+.users{
+    width: 615px;
+    padding-top: 33px;
+    overflow: hidden;
+}
+.users h2{
+    margin-left: 2px;
+    margin-top: 60px;
+    margin-bottom: 6px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: black;
+}
+.users h5{
+    margin-top: 12px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -1.2px;
+    text-align: center;
+    color: #878787;
+}
+.users__card{
+    width: 190px;
+    height: 182px;
+    padding-top: 1px;
+    margin-left: 9px;
+    overflow: hidden;
+    float: left;
+}
+.users__picture{
+    width: 171px;
+    margin-top: 2px;
+    margin-left: 4px;
+}
+.users img{
+    width: 57px;
+    margin-top: 13px;
+    margin-left: 0px;   
+    border: 1px solid none;
+    border-radius: 40px;    
+}
+.users__text{
+    width: 190px;
+    padding-left: 2px;
+    padding-top: 0px;
+    line-height: 22px;
+    float: left;
+}
+.users__text h4{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    text-align: center;
+    line-height: 23px;
+    color: #878787;
+}
+.users__text-p{
+    margin-top: 12px;
+}
+.p-position{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 10px;
+    letter-spacing: 0.2px;
+    line-height: 14px;
+    text-align: center;
+    color: #878787;
+}
+.p-email{
+    margin-top: 0px;
+    font-size: 10px;
+    letter-spacing: 0.2px;
+    line-height: 14px;
+    text-align: center;
+    color: #878787;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.p-telephone{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 10px;
+    letter-spacing: 0.2px;
+    line-height: 14px;
+    text-align: center;
+    color: #878787;
+}                   
+.users .buttonShowmore{
+    width: 232px;
+    height: 33px;
+    margin-top: 14px;
+    margin-bottom: 78px;
+    border: 2px solid #ef6c00;
+    border-radius: 5px;
+    background-color: white;
+    color: #ef6c00;
+    font-size: 14px;
+    font-weight: 600;
+}
+.users .buttonShowmore:hover{
+    background-color: #FEE6D2;
+    
+}
+.floatleft{
+    float: left;
+}
+}
+@media (min-width: 1024px) and (max-width: 2560px) {
+.users{
+    width: 1024px;
+    padding-top: 133px;
+    overflow: hidden;
+}
+.users h2{
+    margin-left: 2px;
+    margin-top: 2px;
+    margin-bottom: 6px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #111;
+}
+.users h5{
+    margin-top: 12px;
+    margin-bottom: 6px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -1.2px;
+    text-align: center;
+    color: #111;
+}
+.users__card{
+    width: 302px;
+    height: 216px;
+    padding-top: px;
+    margin-left: 19px;
+    overflow: hidden;
+    float: left;
+}
+.users__picture{
+    width: 101px;
+    margin-top: 33px;
+    margin-left: -14px;
+    float: left;
+}
+
+.users img{
+    width: 72px;
+    margin-top: 19px;
+    margin-left: 41px;  
+    border: 1px solid none;
+    border-radius: 40px;
+    
+}
+.users__text{
+    width: 190px;
+    padding-left: 22px;
+    padding-top: 77px;
+    line-height: 22px;
+    float: left;
+}
+.users__text h4{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: left;
+    line-height: 27px;
+    color: #878787;
+}
+.users__text-p{
+    margin-top: 12px;
+}
+.p-position{
+    margin-top: 9px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    line-height: 16px;
+    text-align: left;
+    color: #878787;
+}
+.p-email{
+    margin-top: 2px;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    line-height: 16px;
+    text-align: left;
+    color: #878787;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.p-telephone{
+    margin-top: 2px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    line-height: 16px;
+    text-align: left;
+    color: #878787;
+}                   
+.users .buttonShowmore{
+    width: 290px;
+    height: 40px;
+    margin-top: 8px;
+    margin-bottom: 118px;
+    border: 2px solid #ef6c00;
+    border-radius: 5px;
+    background-color: white;
+    color: #ef6c00;
+    font-size: 18px;
+    font-weight: 600;
+}
+.users .buttonShowmore:hover{
+    background-color: #FEE6D2;
+    
+}
+.floatleft{
+    float: left;
+}
+}
