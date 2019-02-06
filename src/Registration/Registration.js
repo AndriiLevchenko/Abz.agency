@@ -7,7 +7,7 @@ class Registration extends Component{
 
         state={
             username: '',
-            selectedFile: {name:' Upload your photo'},
+            selectedFile: ' Upload your photo',
             usersArray: '',
             userslist: '',
             newUsersName: ' ',
@@ -15,16 +15,13 @@ class Registration extends Component{
             newUsersPhone: '    +38 (___) ___ __ __' ,
             newUsersPosition: ''
         }
-
+                                 //Получение userslist.json с сервера
         componentDidMount(){
             axios.get('https://abzagency.firebaseio.com/userslist.json').then(response =>{
                 this.setState({usersArray: response, userslist: Object.values(response)});
-                console.log(this.state.usersArray.data);
-                 console.log(Object.values(this.state.usersArray.data));
-                  this.setState({usersArray: response, userslist: Object.values(response)});
             });
         }
-
+                                //Получение введенных данных из формы
         handleChangeName = event =>{
             console.log(event);
             let name = event.target.value;
@@ -49,27 +46,20 @@ class Registration extends Component{
             });
             console.log(this.state.newUsersPhone);
         }
-
         handleChangeSelect = event =>{
              this.setState({
                 newUsersPosition: event.target.value
             });
         }
-
         handleChangeFile =event=> {
             console.log(event.target);
-                          const file = 'img/'+event.target.files[0].name;
-                   alert(file);
-                          this.setState({selectedFile: file});
-                                console.log(file);
+               
+                          this.setState({selectedFile: event.target.files[0].name});
+
                                 console.log(this.state.selectedFile);
-                          //const formData = new FormData();
-                          //formData.append('file', file);
-                          //alert('все готово к отправке на сервер');
-                          //Make a request to server and send formData
         }
 
-
+                                //Формирование нового User и внесения в список userslist.json на сервере 
         fileUploadHandler =(e) =>{
             e.preventDefault();
             const newUser={
@@ -81,20 +71,17 @@ class Registration extends Component{
                 "telephone":this.state.newUsersPhone,
             }
             console.log(newUser);
-                         
+                                //Добавление нового User
             axios.post('https://abzagency.firebaseio.com/userslist.json', newUser).then(response => {
                console.log( response )} )
                .catch(error => console.log(error));
-              alert('по-типу  функция уже записалось');
         }
         
 
     render(){
+       
 
-        const userslist = this.state.userslist;
-        console.log(userslist);
-
-    return (
+        return (
            <div className='register'>
                 <h2>Register to get a work </h2>
                 <div className='register__h4'>
@@ -106,8 +93,8 @@ class Registration extends Component{
                     <form>
                         <div className='register__input' >
                             <p>Name</p>
-                            <input type='email'   value={this.state.newUsersName} 
-                                                 placeholder= '   Your name'
+                            <input type='email'  value={this.state.newUsersName} 
+                                                 placeholder='   Your name'
                                                  name='name'
                                                  onChange={this.handleChangeName}
                             />  
@@ -143,8 +130,9 @@ class Registration extends Component{
                         </div>  
                         <div className='register__upload'>
                             <label htmlFor='file-upload' className='register__upload-button__label'>
-                               {this.state.selectedFile.name}
+                              
                                 <div className='register__upload-button' onChange={this.handleChangeFile} >Upload</div>
+                                 {this.state.selectedFile}
                             </label>
                             <input id='file-upload' type='file' name='photo' onChange={this.handleChangeFile} />                       
                             <label htmlFor="file" className='register__upload__label'>
@@ -155,8 +143,8 @@ class Registration extends Component{
                     </form>     
                 </div>
             </div>
-)
-}
+        )
+    }
 }
 
 export default Registration;
