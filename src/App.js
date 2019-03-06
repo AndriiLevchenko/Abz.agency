@@ -52,10 +52,10 @@ class App extends Component {
                     <div className='navbar__superstar'>
                         <div className='navbar__superstar-button'>
                             {/* переход на карточку Superstar(первая из всех) компонента Users */}
-                            <button onClick={()=> this.refs.child.showSuperstar()}><a href='#anchorsuperstar'><img src='Icons/upload.png' alt='upload'/></a></button>
+                            <button onClick={()=> this.refs.child.showSuperstar()}><a href='#anchorsuperstar'><img src='icons/upload.png' alt='uploading' /></a></button>
                         </div>
                         <div className='navbar__superstar-img'>
-                             <img src='imgs/superstar.jpg' alt='superstar'/>
+                             <img src='imgs/superstar.jpg' alt='superstar' />
                         </div>
                         <div className='navbar__superstar-text'>
                             <p>Superstar</p>

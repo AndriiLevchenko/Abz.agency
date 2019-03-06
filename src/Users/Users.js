@@ -16,6 +16,7 @@ class Users extends Component{
                                      //Получение userslist.json с сервера
         componentDidMount(){
             axios.get('https://abzagency.firebaseio.com/userslist.json').then(response =>{
+               
                 this.setState({usersArray: response});
                 const userslist=Object.values(response.data);
                 this.setState({userslist});
@@ -56,7 +57,7 @@ class Users extends Component{
                 <div className='users'>
                     <h2>Our cheerful users</h2>
                     <h5>Attention! Sorting users by registration date</h5>  
-                        {/* Формирование карточек Userscsrd */}                
+                        {/* Формирование карточек Userscard */}                
                         {
                             UsersArrayOpen.map(function(item, i){
                                 return( 

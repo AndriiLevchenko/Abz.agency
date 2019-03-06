@@ -40,10 +40,11 @@
 }
 .users img{
 	width: 71px;
+    max-height: 71px;
 	margin-top: 0px;
 	margin-left: 0px;	
 	border: 1px solid none;
-	border-radius: 40px;	
+	border-radius: 110px;	
 }
 .users__text{
 	width: 280px;

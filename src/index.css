@@ -538,6 +538,10 @@ h5{
 	margin-top: 19px;
 	float: right;
 }
+.navbar__superstar-button button{
+	background-color: white;
+	border: none;
+}
 .navbar__superstar-button img{
 	width: 25px;
 }
