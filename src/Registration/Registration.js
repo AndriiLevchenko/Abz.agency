@@ -104,14 +104,15 @@ class Registration extends Component{
             console.log(`${controlName}:`, event.target.value);
             const formControls = {...this.state.validationState};
             const control = {...formControls[controlName]};
+                 control.newUsersNameEmailPhone = event.target.value;
 
                     //Запись в State введенных в Input-ы данных Name, Email, Phone и их валидация
                  if(control.name === 'Name'){ this.setState({newUsersName: control.newUsersNameEmailPhone})};
                  if(control.name === 'Email'){ this.setState({newUsersEmail: control.newUsersNameEmailPhone})};
                  if(control.name === 'Phone'){ this.setState({newUsersPhone: control.newUsersNameEmailPhone})};
+                  console.log(event.target);
 
-            control.newUsersNameEmailPhone = event.target.value;
-                console.log(event.target);
+         
 
             control.touched = 'true';
             control.valid = this.validateControl(control.newUsersNameEmailPhone, control.validation);
@@ -132,6 +133,10 @@ class Registration extends Component{
             console.log('position:  ', this.state.newUsersPosition !== '  Select your position');
              console.log('file:  ', this.state.selectedFile.name !== " Upload your photo");
              console.log('окончательно NameEnailPhone:  ', this.state.isFormValid);
+              console.log(this.state.newUsersName);
+                console.log(this.state.newUsersEmail);
+                console.log(this.state.newUsersPhone);
+
           
         }
                      //Запись в State Position выбранного из формы Select и его валидация
