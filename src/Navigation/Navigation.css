@@ -117,6 +117,7 @@
 .Navigation .navbar__superstar-text p{
 	text-align: left;
 	font-size: 16px;
+	font-weight: 600;
 	letter-spacing: 0.6px;
 	line-height: 5px;
 }

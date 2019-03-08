@@ -107,7 +107,7 @@ select{
     margin-left: 13px;
     padding-top: 11px;
     padding-left: 1px;
-    border: 1px solid black;
+    border: 1px solid #666;
     font-size: 12px;
     font-weight: 600;
     float: left;
@@ -269,7 +269,7 @@ select{
     margin-left: 24px;
     padding-top: 11px;
     padding-left: 1px;
-    border: 1px solid #ccc;
+    border: 1px solid #666;
     font-size: 12px;
     font-weight: 600;
     float: left;
@@ -426,7 +426,7 @@ select{
     margin-left: 30px;
     padding-top: 11px;
     padding-left: 1px;
-    border: 1px solid #ccc;
+    border: 1px solid #666;
     font-size: 20px;
 	font-weight: 600;
     float: left;
@@ -461,6 +461,18 @@ select{
     color: orange;
     cursor: pointer;
 }
+.register__upload-button button{
+    width: 91px;
+    height: 42px;
+    margin-top: 0px;
+    padding: 10px;
+    border: 2px solid #ef6c00;
+    font-size: 16px;
+    font-weight: 600;
+    color: orange;
+    cursor: pointer;
+}
+
 input[type="file"] {
     display: none;
 }

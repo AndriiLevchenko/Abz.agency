@@ -30,8 +30,6 @@ class Registration extends Component{
             progress: 0,
             url:'', 
 
-
-
             validationState: {
                 inputName: {
                     newUsersNameEmailPhone: ' ',
@@ -82,7 +80,6 @@ class Registration extends Component{
             });
         }
                                 //Получение введенных данных из формы с валидацией
-       
         validateControl(value, validation){
             if(!validation){return 'true'};
             let isValid = 'true';
@@ -149,10 +146,6 @@ class Registration extends Component{
                 console.log( 'isFormSelectValid : ', isFormSelectValid);
                             this.setState({ isFormSelectValid, isFormValid}, () => { console.log( this.state.isFormValid);  });
                                console.log('position:  ', newUsersPosition  );
-                           
-        
-             console.log('file:  ', this.state.selectedFile.name !== " Upload your photo");
-               console.log('окончательно Select:  ', this.state.isFormValid);
         }
 
                          //Запись в State фотографии из формы Input и ее валидация
@@ -163,14 +156,10 @@ class Registration extends Component{
             let isFormUploadValid = selectedFile.name !== " Upload your photo";
             console.log('isFormValid до того как setState:  ', isFormUploadValid );
             isFormValid = this.state.isNameEmailPhoneValid && this.state.isFormSelectValid && isFormUploadValid;
-                         console.log('select:  ', this.state.newUsersPosition );
-                        console.log('file:  ', selectedFile.name );
-                         console.log('isFormValid до того как setState но после уточнения:  ', isFormValid );
-                        this.setState({ isFormValid}, () => { console.log( this.state.isFormValid);  });
-                         
-                        console.log('position:  ', this.state.newUsersPosition !== '  Select your position');
-             console.log('file:  ', selectedFile.name !== " Upload your photo");
-               console.log('окончательно Upload:  ', this.state.isFormValid);
+                //console.log('select:  ', this.state.newUsersPosition );           //проверка валидации
+                //console.log('file:  ', selectedFile.name );                       //проверка валидации
+            this.setState({ isFormValid}, () => { console.log( this.state.isFormValid);  });
+            console.log('file:  ', selectedFile.name !== " Upload your photo");     //проверка валидации
         }
 
                                 //Формирование нового User и внесения в список userslist.json на сервере 
@@ -232,9 +221,6 @@ class Registration extends Component{
         }
 
     render(){
-            //const controlName=this.state.validationState.inputName;
-            //const controlEmail=this.state.validationState.inputEmail;
-            //const controlPhone=this.state.validationState.inputPhone;
         return (
            <div className='register'>
                 <h2>Register to get a work </h2>
@@ -260,23 +246,6 @@ class Registration extends Component{
                             onChange={this.handleChangeFile}
                             selectedFile={this.state.selectedFile}
                         />  
-
-
-{/*   Это все надо удалить
-                        // <div className='register__upload'>
-                        //     <label htmlFor='file-upload' className='register__upload-button__label'>
-                        //         <div className='register__upload-button' onChange={this.handleChangeFile} >Upload</div>
-                        //         {this.state.selectedFile.name}
-                        //     </label>
-                        //     <input id='file-upload' type='file' name='photo' onChange={this.handleChangeFile} />                       
-                        //     <label htmlFor="file" className='register__upload__label'>
-                        //         File format jpg up to 5MB, the minimum size of 70x70px
-                        //     </label>
-                        // </div>   
-           */} 
-
-
-
 
                         <button  className="register__button" onClick={this.fileUploadHandler} disabled={!this.state.isFormValid}>
                             Sign Up
